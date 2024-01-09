@@ -1,0 +1,28 @@
+/* Subheader.css */
+
+.subheader {
+    background-color: #f0f0f0;
+    padding: 10px 0;
+    border-top: 2px solid black;
+    /* Black border at the top */
+}
+
+.subheader-links {
+    display: flex;
+    justify-content: space-evenly;
+    /* Evenly spaced links */
+    align-items: center;
+}
+
+.subheader-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.4rem;
+    /* Increased font size */
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.subheader-links a:hover {
+    color: #ff4500;
+}

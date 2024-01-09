@@ -1,0 +1,53 @@
+/* Header.css */
+
+.header {
+    position: relative;
+    height: 90vh;
+    /* Set the height to 80% of the viewport height */
+    overflow: hidden;
+    /* Hide overflow to prevent scrolling if the content exceeds height */
+}
+
+.header-image {
+    width: 100%;
+    /* Fill the width */
+    height: 100%;
+    /* Maintain aspect ratio within the specified height */
+    object-fit: cover;
+    /* Cover the container while maintaining aspect ratio */
+}
+
+.header-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.header-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.header-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #cc0000;
+}
